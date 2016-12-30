@@ -1,0 +1,91 @@
+.membership-card {
+  display: inline-block;
+  min-width: 480px;
+  max-width: 480px;
+  max-height: 250px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 2px solid #999;
+  background-color: #fff;
+  box-sizing: content-box;
+  text-align: left;
+}
+
+.membership-card .row {
+  margin: 0;
+}
+
+.membership-card .first.row {
+  display: table-row;
+  height: 150px;
+}
+
+.membership-card .org {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.membership-card .org .logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.membership-card .org .logo img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.membership-card .org .info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+  font-size: 12px;
+  max-width: 50%;
+}
+
+.membership-card .org .info .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.membership-card .org .info .email {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.membership-card .first.row.no-photo .org .info {
+  max-width: inherit;
+}
+
+.membership-card .picture {
+  display: table-cell;
+  width: 30%;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.membership-card .picture img {
+  width: 100%;
+}
+
+.membership-card .person-info .name {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.membership-card .person-info .dates {
+  font-size: 20px;
+  line-height: 25px;
+  padding: 5px 0;
+}
+
+.membership-card .person-info .dates .expired {
+  font-weight: bold;
+  color: red;
+}
