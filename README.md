@@ -1,7 +1,14 @@
 # amilia-kiosk-prototype
 Kiosk prototype using React JS
 
-This was built using [Create React App](https://github.com/facebookincubator/create-react-app). A few commands to get going...
+This was built using [Create React App](https://github.com/facebookincubator/create-react-app).
+
+### Install
+- clone this repo
+- run `npm install`
+- then `npm start`
+
+A few commands to get going...
 
 ### `npm start`
 
@@ -28,6 +35,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## User Guide
 
-The [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) includes information on different topics, such as:
+## Learn more
+
+Read the [Create React App User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
